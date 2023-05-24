@@ -1,0 +1,74 @@
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    width: 68vw;
+    height: 8vh;
+    margin: 3vh auto;
+    align-items: center;    
+}
+
+.title_wrapper {    
+    color: white;    
+    font-size: 31px;
+    text-transform: uppercase;
+}
+
+.basket_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.basket_info {
+    color: white;
+}
+
+.basket_icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.basket_icon:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}
+
+.logout {
+    color: #D58C51;
+    background-color: rgba(22, 21, 22, 1);
+    border:  1px solid rgba(213, 140, 81, 1);
+    width: 200px;
+    height: 42px;
+}
+
+.logout:hover {
+    cursor: pointer;
+    background-color: #D58C51;
+    color: white;
+}
+
+.back {   
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.back:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}

@@ -1,0 +1,148 @@
+.basketHeader {
+    width: 1450px;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px;
+
+    color: white;
+    font-size: 31px;
+    text-transform: uppercase;
+    align-items: center;    
+}
+
+.basketHeader h1 {
+    align-items: center;
+}
+
+.basketNone {
+    width: 68vw;
+    margin: 3vh auto;
+
+    color: white;
+    font-size: 31px;
+    text-transform: uppercase; 
+}
+
+.basketGoods {
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;    
+    margin: 0 auto;
+    gap: 30px;
+    flex: 1;
+
+    overflow-y: scroll;
+    height: 75vh;
+    width: 80vw;
+}
+
+.basketGoods::-webkit-scrollbar {
+    width: 0.25em;
+}
+
+.basketGoods::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+.basketList__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.basketList__wrapper:hover {
+    border: 1px solid rgba(213, 140, 81, 1);
+    padding: calc(25px - 1px);
+    cursor: pointer;
+}
+
+.basket_preview {
+    width: 122px;
+    height: 122px;
+}
+
+.basket_title {
+    color: white;
+    font-size: 18px;
+    width: 250px;
+}
+
+.basket_price {
+    color: #D58C51;
+    font-size: 18px;
+}
+
+.basket_delete {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.basket_delete:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}
+
+.basketFooter {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 68vw;
+    margin: 3vh auto;
+    align-items: center; 
+
+    color: white;
+    font-size: 31px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.basketFooter button {
+    background-color: rgba(213, 140, 81, 1);
+    border: none;
+    width: 200px;
+    height: 42px;
+}
+
+.basketFooter button:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #D58C51;
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.basketList p {
+    color: white;
+}
+
+.basketHeader_navigation {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-left: -100px;
+}
+
+.basketHeader_navigation:hover {
+    background-color: #D58C51;
+    border: 1px solid #D58C51;
+}

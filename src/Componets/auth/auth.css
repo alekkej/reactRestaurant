@@ -1,0 +1,94 @@
+.auth__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    gap: 15px;    
+    margin: 10vh auto;
+
+    background-color: white;
+    padding: 20px;
+}
+
+.auth__link {
+    color: #D58C51;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.auth__link:hover {
+    text-decoration: underline;
+}
+
+.auth__title {
+    margin: 0 auto;
+    color: black;
+    font-size: 31px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.auth__input {
+    padding: 9px 18px;
+    border: 1px solid #D58C51;
+    border-radius: 60px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(213, 140, 81, 1);
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "\2714";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.auth__button {
+    color: black;
+    background-color: rgba(213, 140, 81, 1);
+    border: 1px solid rgba(213, 140, 81, 1);
+    width: 200px;
+    height: 42px;
+    
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+
+.auth__button:hover {
+    cursor: pointer;
+    background-color: #D58C51;
+    color: white;
+}
+
+.auth__error {
+    color: red;
+    margin-left: 10px;
+}
+
+.background {
+    background-image: url(../../../src//images/List3-021.png);
+    background-position: top center;
+    top: 0;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}

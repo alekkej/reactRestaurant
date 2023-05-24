@@ -1,0 +1,59 @@
+.preview {
+    display: flex;
+    width: 50vw;
+    margin: 25vh auto;
+    gap: 10vw;
+    align-items: center;
+}
+
+.preview_preview {
+    height: 30vh;
+}
+
+.preview_title {
+    color: rgba(213, 140, 81, 1);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.preview_description {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+    max-width: 530px;
+    max-height: 220px;
+    line-height: 17px;
+}
+
+.preview_price {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.preview_gram {
+    color: white;
+    font-size: 18px;
+}
+
+.preview_price__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.icon_preview {
+    background-color: rgba(213, 140, 81, 1);
+    border: none;
+    width: 200px;
+    height: 42px;
+}
+.icon_preview:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #D58C51;
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+}
